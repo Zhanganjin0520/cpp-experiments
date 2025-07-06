@@ -55,4 +55,16 @@ int main() {
 
     k = i - j > 0 ? i - j : j - i;
     cout << "The difference of i and j is:\t" << k;
+
+    //if 语句
+    //单语句
+    if (x > y) cout << x;
+    //两分支
+    if (x > y) cout << x;
+    else cout << y;
+    //多重分支
+    if (x > y) cout << y;
+    else if (x == y) cout << x;
+    else cout << x;
+
 }
