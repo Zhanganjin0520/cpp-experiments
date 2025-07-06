@@ -13,12 +13,12 @@ int main(int argc, char *argv[]) {
     int x, y;
     cout << "Enter x and y:";
     cin >> x >> y;
-    if (x != y)
-        if(x > y)
-            cout << x << " is greater than " << y << endl;
+    if (x != y) {
+        if (x > y)
+            cout << x << " x is greater than y " << y << endl;
         else
-            cout << y << " is greater than " << x << endl;
-    else
-        cout << y << " is equal to " << x << endl;
+            cout << y << " y is greater than x " << x << endl;
+    } else
+        cout << y << "x is equal to y" << x << endl;
     return 0;
 }
